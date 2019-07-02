@@ -1,0 +1,27 @@
+/*----------------------------------------
+  ## Section title
+----------------------------------------*/
+.section-title{
+    &.white{
+        .title{
+            color: $white;
+        }
+        p{
+            color: rgba($white,.7);
+        }
+    }
+    .title{
+        font-size: 36px;
+        line-height: 46px;
+        font-weight: 700;
+        color: var(--heading-color);
+        span{
+            color: var(--main-color-one);
+        }
+    }
+    p{
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--paragraph-color);
+    }
+}
